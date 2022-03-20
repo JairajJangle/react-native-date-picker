@@ -95,9 +95,9 @@
             android:id="@+id/hour"
             android:tag="hour"
             android:layout_height="match_parent"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_weight="1"
-            custom:npv_DividerColor="#cccccc"
+            custom:npv_DividerColor="#00000000"
             custom:npv_RespondChangeOnDetached="false"
             custom:npv_ShownCount="5"
             custom:npv_TextColorNormal="#aaaaaa"
@@ -112,9 +112,9 @@
             android:id="@+id/minutes"
             android:tag="minutes"
             android:layout_weight="1"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="match_parent"
-            custom:npv_DividerColor="#cccccc"
+            custom:npv_DividerColor="#00000000"
             custom:npv_RespondChangeOnDetached="false"
             custom:npv_ShownCount="5"
             custom:npv_TextColorNormal="#aaaaaa"
@@ -130,9 +130,9 @@
             android:id="@+id/ampm"
             android:tag="ampm"
             android:layout_weight="1"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="match_parent"
-            custom:npv_DividerColor="#cccccc"
+            custom:npv_DividerColor="#00000000"
             custom:npv_RespondChangeOnDetached="false"
             custom:npv_ShownCount="5"
             custom:npv_TextColorNormal="#aaaaaa"
@@ -188,3 +188,4 @@
     </LinearLayout>
 
 </RelativeLayout>
+
